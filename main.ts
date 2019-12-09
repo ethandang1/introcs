@@ -1,6 +1,9 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     info.changeScoreBy(1)
-    mysprite2.setPosition(Math.randomRange(0, 512), Math.randomRange(0, 512))
+    for (let index = 0; index < 4; index++) {
+        otherSprite.setPosition(Math.randomRange(0, 512), Math.randomRange(0, 512))
+    }
+    info.startCountdown(10)
 })
 let mysprite2: Sprite = null
 scene.setTileMap(img`
@@ -205,7 +208,7 @@ let mySprite = sprites.create(img`
 controller.moveSprite(mySprite)
 // Camera follows the sprite throughout the game
 scene.cameraFollowSprite(mySprite)
-for (let index = 0; index < 1; index++) {
+for (let index = 0; index < 4; index++) {
     mysprite2 = sprites.create(img`
 . . . . . . . . . . . c c c c c 
 . . . . . . . . . c c 7 7 7 a c 
@@ -225,5 +228,6 @@ c 7 7 a f 7 7 f a 7 7 c a a a c
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Food)
     mysprite2.setPosition(Math.randomRange(0, 512), Math.randomRange(0, 512))
+    mysprite2.z = 1
 }
 info.startCountdown(10)
