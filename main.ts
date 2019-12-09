@@ -8,36 +8,36 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 let mysprite2: Sprite = null
 scene.setTileMap(img`
 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
-5 d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 5 
-5 d d d d d 7 d d d d d d d d d d d d d d d d d d d d d d d d 5 
-5 d d d d 7 7 7 d d d d d d d d d d 7 7 7 d d d d d d d d d d 5 
-5 d d d d 7 7 7 d d d d d d d d d d 7 7 7 d d d d d d d d d d 5 
-5 d d d d d e d d d d d d d d d d d 7 7 7 d d d d d d d d d d 5 
-5 d d d d d e d d d d d d d d d d d d d d d d d d d d d d d d 5 
-5 d d d d d e d d d d d d d d d d d d d d d d d d d d d d d d 5 
-5 d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 5 
-5 d d d d d d d d d d d d d d d d d d d d d d d d 7 d d d d d 5 
-5 d d d d d d d d d d d d d d d d d d d d d d d 7 7 7 d d d d 5 
-5 d d d d d d d d d d d d d d d d d d d d d d d 7 7 7 d d d d 5 
-5 d d d d d d d d d d d d d d d d f d d d f d d d e d d d d d 5 
-5 d d d d d d d d d d d d d d d d d f d f d d d d e d d d d d 5 
-5 d d d d d d d d d d d d d d d d d d 3 c d d d d e d d d d d 5 
-5 d d d d d d d d d d d d d d d c d d c d d d d d d d d d d d 5 
-5 d d d d d d d d d d d d d d d d c c c d d d d d d d d d d d 5 
-5 d d d d d d d 7 d d d d d d d d c d c d d d d d d d d d d d 5 
-5 d d d d d d 7 7 7 d d d d d d 9 9 9 9 9 9 9 9 9 d d d d d d 5 
-5 d d d d d d 7 7 7 d d d d d d 9 8 8 8 8 8 8 8 9 9 9 9 d d d 5 
-5 d d d d d d d e d d d d d d d 9 8 8 8 8 8 8 8 8 8 8 9 d d d 5 
-5 d d d d d d d e d d d d d d d 9 8 8 8 8 8 8 8 8 8 8 9 d d d 5 
-5 d d d d d d d e d d d d d d d 9 8 8 8 8 8 8 8 8 8 8 9 9 d d 5 
-5 d d d d d d d d d d d d d d d 9 8 8 8 8 8 8 8 8 8 8 8 9 d d 5 
-5 d d d 7 7 7 d d d d d d d d d 9 9 8 8 8 8 8 8 8 8 8 8 9 d d 5 
-5 d d d 7 7 7 d d d d d d d d d d 9 8 8 8 8 8 8 8 8 8 8 9 d d 5 
-5 d d d 7 7 7 d d d d d d d d d d 9 9 8 8 8 8 8 8 8 8 8 9 d d 5 
-5 d d d d d d d d d d d d d d d d d 9 8 8 8 8 8 8 8 8 9 9 d d 5 
-5 d d d d d d d d d d d d d d d d d 9 9 9 9 9 8 8 8 8 9 d d d 5 
-5 d d d d d d d d d d d d d d d d d d d d d 9 9 9 9 9 9 d d d 5 
-5 d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d 5 
+5 b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 5 
+5 b b b b b 7 b b b b b b b b b b b b b b b b b b b b b b b b 5 
+5 b b b b 7 7 7 b b b b b b b b b b 7 7 7 b b b b b b b b b b 5 
+5 b b b b 7 7 7 b b b b b b b b b b 7 7 7 b b b b b b b b b b 5 
+5 b b b b b e b b b b b b b b b b b 7 7 7 b b b b b b b b b b 5 
+5 b b b b b e b b b b b b b b b b b b b b b b b b b b b b b b 5 
+5 b b b b b e b b b b b b b b b b b b b b b b b b b b b b b b 5 
+5 b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 5 
+5 b b b b b b b b b b b b b b b b b b b b b b b b 7 b b b b b 5 
+5 b b b b b b b b b b b b b b b b b b b b b b b 7 7 7 b b b b 5 
+5 b b b b b b b b b b b b b b b b b b b b b b b 7 7 7 b b b b 5 
+5 b b b b b b b b b b b b b b b b f b b b f b b b e b b b b b 5 
+5 b b b b b b b b b b b b b b b b b f b f b b b b e b b b b b 5 
+5 b b b b b b b b b b b b b b b b b b 3 c b b b b e b b b b b 5 
+5 b b b b b b b b b b b b b b b c b b c b b b b b b b b b b b 5 
+5 b b b b b b b b b b b b b b b b c c c b b b b b b b b b b b 5 
+5 b b b b b b b 7 b b b b b b b b c b c b b b b b b b b b b b 5 
+5 b b b b b b 7 7 7 b b b b b b f f f f f f f f f b b b b b b 5 
+5 b b b b b b 7 7 7 b b b b b b f 8 8 8 8 8 8 8 f f f f b b b 5 
+5 b b b b b b b e b b b b b b b f 8 8 8 8 8 8 8 8 8 8 f b b b 5 
+5 b b b b b b b e b b b b b b b f 8 8 8 8 8 8 8 8 8 8 f b b b 5 
+5 b b b b b b b e b b b b b b b f 8 8 8 8 8 8 8 8 8 8 f f b b 5 
+5 b b b b b b b b b b b b b b b f 8 8 8 8 8 8 8 8 8 8 8 f b b 5 
+5 b b b 7 7 7 b b b b b b b b b f f 8 8 8 8 8 8 8 8 8 8 f b b 5 
+5 b b b 7 7 7 b b b b b b b b b b f 8 8 8 8 8 8 8 8 8 8 f b b 5 
+5 b b b 7 7 7 b b b b b b b b b b f f 8 8 8 8 8 8 8 8 8 f b b 5 
+5 b b b b b b b b b b b b b b b b b f 8 8 8 8 8 8 8 8 f f b b 5 
+5 b b b b b b b b b b b b b b b b b f f f f f 8 8 8 8 f b b b 5 
+5 b b b b b b b b b b b b b b b b b b b b b f f f f f f b b b 5 
+5 b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 5 
 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
 `)
 scene.setTile(14, img`
@@ -61,22 +61,22 @@ e e e e e e e e e e e e e e e e
 // when turned on, player can't move to this color.
 // There is a color texture to add to the yellow.
 scene.setTile(5, img`
-7 5 5 5 5 5 5 5 5 5 5 5 5 7 7 7 
-5 7 7 7 7 7 7 7 7 7 7 7 7 5 5 7 
-5 7 7 7 7 7 7 7 7 7 7 7 7 7 7 5 
-5 7 7 7 7 7 7 7 7 7 7 7 7 7 7 5 
-5 7 7 7 7 5 5 5 5 5 7 7 7 7 7 5 
-5 7 7 7 5 5 7 7 7 7 5 5 7 7 7 5 
-5 7 7 5 5 7 7 7 7 7 7 5 5 7 7 5 
-5 7 5 5 7 7 7 5 5 7 7 7 5 7 7 5 
-5 7 5 7 7 7 5 5 7 7 7 7 5 7 7 5 
-5 7 5 7 7 7 5 7 7 7 7 7 5 7 7 5 
-5 7 5 7 7 7 5 5 7 7 7 7 5 7 7 5 
-5 7 7 5 7 7 7 5 5 5 5 5 7 7 7 5 
-5 7 7 5 5 7 7 7 7 7 7 7 7 7 7 5 
-5 7 7 7 5 5 7 7 7 7 7 7 7 7 7 5 
-5 7 7 7 7 5 5 7 7 7 7 7 7 5 5 7 
-5 7 7 7 7 7 7 5 5 5 5 5 5 5 7 7 
+f f f f f f f f f f f f f f f f 
+f a a a a a a a a a a a a a a f 
+f a c c c c c c c c c c c c a f 
+f a c b b b b b b b b b b c a f 
+f a c b f f f f f f f f b c a f 
+f a c b f a a a a a a f b c a f 
+f a c b f a c c c c a f b c a f 
+f a c b f a c b b c a f b c a f 
+f a c b f a c b b c a f b c a f 
+f a c b f a c c c c a f b c a f 
+f a c b f a a a a a a f b c a f 
+f a c b f f f f f f f f b c a f 
+f a c b b b b b b b b b b c a f 
+f a c c c c c c c c c c c c a f 
+f a a a a a a a a a a a a a a f 
+f f f f f f f f f f f f f f f f 
 `, true)
 scene.setTile(15, img`
 f f f f f f f f f f f f f f f f 
@@ -95,7 +95,7 @@ f f f f f f f f f f f f f f f f
 f f f f f f f f f f f f f f f f 
 f f f f f f f f f f f f f f f f 
 f f f f f f f f f f f f f f f f 
-`, true)
+`, false)
 scene.setTile(12, img`
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
@@ -113,23 +113,23 @@ e e e e e e e e e e e e e e e e
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
-`, true)
+`, false)
 scene.setTile(7, img`
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 2 2 2 2 2 7 7 
-7 7 7 7 7 7 7 7 7 2 2 2 2 2 7 7 
-7 7 7 7 7 7 7 7 7 2 2 2 2 2 7 7 
-7 7 7 7 7 7 7 7 7 2 2 2 2 2 7 7 
-7 7 7 7 7 7 7 7 7 2 2 2 2 2 7 7 
+7 7 7 7 7 7 7 7 7 a a a a a 7 7 
+7 7 7 7 7 7 7 7 7 a c c c a 7 7 
+7 7 7 7 7 7 7 7 7 a c b c a 7 7 
+7 7 7 7 7 7 7 7 7 a c c c a 7 7 
+7 7 7 7 7 7 7 7 7 a a a a a 7 7 
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 2 2 2 2 2 7 7 7 7 7 7 7 
-7 7 7 7 2 2 2 2 2 7 7 7 7 7 7 7 
-7 7 7 7 2 2 2 2 2 7 7 7 7 7 7 7 
-7 7 7 7 2 2 2 2 2 7 7 7 7 7 7 7 
-7 7 7 7 2 2 2 2 2 7 7 7 7 7 7 7 
+7 7 7 7 a a a a a 7 7 7 7 7 7 7 
+7 7 7 7 a c c c a 7 7 7 7 7 7 7 
+7 7 7 7 a c b c a 7 7 7 7 7 7 7 
+7 7 7 7 a c c c a 7 7 7 7 7 7 7 
+7 7 7 7 a a a a a 7 7 7 7 7 7 7 
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
 `, false)
 scene.setTile(8, img`
@@ -150,34 +150,34 @@ scene.setTile(8, img`
 8 8 8 8 8 1 1 8 8 8 8 8 8 8 8 8 
 8 8 8 8 8 8 1 1 8 8 8 8 8 8 8 8 
 `, true)
-scene.setTile(13, img`
-d d d d d d d d d d d d d d d d 
-d d d d d d d d d d d d d d d d 
-d d d d d d d d d d d d d d d d 
-d d d d d d d d d d d d d d d d 
-d d d d d d d d d d d d d d d d 
-d d d d d d d d d d d d d d d d 
-d d d d d d d d d d d d d d d d 
-d d d d d d d d d d d d d d d d 
-d d d d d d d d d d d d d d d d 
-d d 7 d d 7 d d d 7 d d d d d d 
-7 d 7 d d 7 d d d 7 d d d d 7 d 
-7 d d 7 d 7 d d d d 7 d d d 7 d 
-7 d d 7 d 7 d d d d 7 d d d 7 d 
-7 d d 7 d 7 7 d d d 7 d d d 7 d 
-7 7 d d d d 7 d d d 7 d d d 7 d 
-d 7 d d d d d d d d d d d d 7 d 
+scene.setTile(11, img`
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b 7 b b 7 b b b 7 b b b b b b 
+7 b 7 b b 7 b b b 7 b b b b 7 b 
+7 b b 7 b 7 b b b b 7 b b b 7 b 
+7 b b 7 b 7 b b b b 7 b b b 7 b 
+7 b b 7 b 7 7 b b b 7 b b b 7 b 
+7 7 b b b b 7 b b b 7 b b b 7 b 
+b 7 b b b b b b b b b b b b 7 b 
 `, false)
 scene.setTile(3, img`
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
-e e e f f f f e e e e e e e e e 
-e e f f 1 1 1 e e e e e e e e e 
-e e f f 1 1 1 e e e e e e e e e 
-e e f f 1 1 1 e e e e e e e e e 
-e e f f f f f e e e e e e e e e 
-e e f f f f f e e e e e e e e e 
+e e e e e e e e e e e e e e e e 
+e e e f a a a a e e e e e e e e 
+e e e f a a a 1 e e e e e e e e 
+e e e f a a a a e e e e e e e e 
+e e e f f f f f e e e e e e e e 
+e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
 e e e e e e e e e e e e e e e e 
@@ -187,22 +187,22 @@ e e e e e e e e e e e e e e e e
 e e e e e e e e e e e e e e e e 
 `, true)
 let mySprite = sprites.create(img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . 7 7 7 7 7 7 7 7 7 7 . . . 
-. . . 7 3 3 3 3 3 3 3 3 7 . . . 
-. . . 7 3 3 3 3 3 3 3 3 7 . . . 
-. . . 7 3 5 f 3 3 5 f 3 7 . . . 
-. . . 7 8 4 5 8 8 4 5 8 7 . . . 
-. . . 7 8 8 8 8 8 8 8 8 7 . . . 
-. . . 7 8 8 8 9 9 8 8 8 7 . . . 
-. . . 7 2 2 2 2 2 2 2 2 7 . . . 
-. . . 7 2 2 f a a a f 2 7 . . . 
-. . . 7 2 2 2 2 2 2 2 2 7 . . . 
-. . . 7 7 7 7 7 7 7 7 7 7 . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . f f f . . . . . . . . f f f 
+. f f c c . . . . . . f c b b c 
+f f c c . . . . . . f c b b c . 
+f c f c . . . . . . f b c c c . 
+f f f c c . c c . f c b b c c . 
+f f c 3 c c 3 c c f b c b b c . 
+f f b 3 b c 3 b c f b c c b c . 
+. c b b b b b b c b b c c c . . 
+. c 1 b b b 1 b b c c c c . . . 
+c b b b b b b b b b c c . . . . 
+c b c b b b c b b b b f . . . . 
+f b 1 f f f 1 b b b b f c . . . 
+f b b b b b b b b b b f c c . . 
+. f b b b b b b b b c f . . . . 
+. . f b b b b b b c f . . . . . 
+. . . f f f f f f f . . . . . . 
 `, SpriteKind.Player)
 // controls the sprite
 controller.moveSprite(mySprite)
