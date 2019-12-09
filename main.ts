@@ -119,11 +119,11 @@ scene.setTile(7, img`
 7 7 7 7 7 7 7 7 7 a a a a a 7 7 
 7 7 7 7 7 7 7 7 7 a c c c a 7 7 
 7 7 7 7 7 7 7 7 7 a c b c a 7 7 
-7 7 7 7 7 7 7 7 7 a c c c a 7 7 
-7 7 7 7 7 7 7 7 7 a a a a a 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 6 6 6 6 6 7 a c c c a 7 7 
+7 7 7 6 9 9 9 6 7 a a a a a 7 7 
+7 7 7 6 9 f 9 6 7 7 7 7 7 7 7 7 
+7 7 7 6 9 9 9 6 7 7 7 7 7 7 7 7 
+7 7 7 6 6 6 6 6 7 7 7 7 7 7 7 7 
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
 7 7 7 7 a a a a a 7 7 7 7 7 7 7 
 7 7 7 7 a c c c a 7 7 7 7 7 7 7 
@@ -133,22 +133,22 @@ scene.setTile(7, img`
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
 `, false)
 scene.setTile(8, img`
-8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
-8 8 8 8 8 8 8 8 8 1 8 8 8 8 8 8 
-8 8 8 1 8 8 8 8 8 1 8 8 8 8 8 8 
-8 8 8 1 1 8 8 8 8 1 8 8 8 8 8 8 
-8 8 8 8 1 1 8 8 8 1 1 8 8 8 8 8 
-8 8 8 8 8 1 1 8 8 8 1 1 8 8 8 8 
-8 8 8 1 8 8 1 8 8 8 8 8 1 1 8 8 
-8 8 8 1 8 8 1 1 8 8 8 8 8 1 1 8 
-8 8 8 8 1 8 8 8 1 1 8 8 8 8 1 8 
-8 8 8 8 8 1 1 8 8 1 8 8 8 8 1 8 
-8 1 8 8 8 8 1 8 8 8 1 1 8 8 1 8 
-8 1 1 8 8 8 8 1 1 8 8 8 8 8 8 8 
-8 8 8 1 8 8 8 8 1 8 8 8 8 8 8 8 
-8 8 8 8 1 1 8 8 8 8 8 8 8 8 8 8 
-8 8 8 8 8 1 1 8 8 8 8 8 8 8 8 8 
-8 8 8 8 8 8 1 1 8 8 8 8 8 8 8 8 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 6 6 f 6 6 6 6 6 b 6 6 6 6 6 6 
+6 6 6 f f 6 6 6 6 b b 6 6 6 6 6 
+6 6 6 6 f f 6 6 6 6 b b 6 6 6 6 
+6 6 6 6 6 f f 6 6 6 6 b b 6 6 6 
+6 6 6 b 6 6 6 f f 6 6 6 b b 6 6 
+6 6 6 b b b 6 6 f f 6 6 6 6 b 6 
+6 6 6 6 6 b b 6 6 f f 6 6 6 6 6 
+6 f 6 6 6 6 b b 6 6 f 6 6 6 6 6 
+6 f f 6 6 6 6 b b 6 6 6 6 6 6 6 
+6 6 f f 6 6 6 6 b 6 6 6 6 6 6 6 
+6 6 6 6 f f 6 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 f f 6 6 6 6 6 6 6 6 6 
+6 6 6 6 6 6 f 6 6 6 6 6 6 6 6 6 
 `, true)
 scene.setTile(11, img`
 b b b b b b b b b b b b b b b b 
@@ -160,13 +160,13 @@ b b b b b b b b b b b b b b b b
 b b b b b b b b b b b b b b b b 
 b b b b b b b b b b b b b b b b 
 b b b b b b b b b b b b b b b b 
-b b 7 b b 7 b b b 7 b b b b b b 
-7 b 7 b b 7 b b b 7 b b b b 7 b 
-7 b b 7 b 7 b b b b 7 b b b 7 b 
-7 b b 7 b 7 b b b b 7 b b b 7 b 
-7 b b 7 b 7 7 b b b 7 b b b 7 b 
-7 7 b b b b 7 b b b 7 b b b 7 b 
-b 7 b b b b b b b b b b b b 7 b 
+b b 6 b b 6 b b b 6 b b b b b b 
+6 b 6 6 b 6 b b b 6 b b b b 6 b 
+6 b b 6 b 6 b b b b 6 b b b 6 b 
+6 b b 6 b 6 b b b b 6 b b b 6 b 
+6 b b 6 b 6 6 b b b 6 b b b 6 b 
+6 6 b b b b 6 b b b 6 b b b 6 b 
+b 6 b b b b b b b b b b b b 6 b 
 `, false)
 scene.setTile(3, img`
 e e e e e e e e e e e e e e e e 
